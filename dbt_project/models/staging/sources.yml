@@ -1,0 +1,8 @@
+sources:
+  - name: staging
+    database: de-zoomcamp-ramani-2026
+    schema: nyc_taxi_dbt
+
+    tables:
+      - name: green_tripdata_2019_2020_clean
+      - name: yellow_tripdata_2019_2020_clean
