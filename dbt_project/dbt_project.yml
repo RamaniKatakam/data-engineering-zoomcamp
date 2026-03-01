@@ -48,8 +48,6 @@ models:
   nyc_taxi_dbt:
     staging:
       +materialized: table
-    intermediate:
-      +materialized: table
     marts:
       +materialized: table
 flags:
